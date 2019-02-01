@@ -12,10 +12,7 @@ class Genre
     @@all
   end
   
-  def new_appointment(doctor, date )
-    Appointment.new(date, self, doctor )
-  end
-  
+
   
   def appointments
     Appointment.all.select do |appoinment|
