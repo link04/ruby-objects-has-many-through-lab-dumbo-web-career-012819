@@ -5,7 +5,6 @@ class Patient
 
   def initialize(name)
     @name = name
-    @dob = dob
     @@all << self
   end
 
