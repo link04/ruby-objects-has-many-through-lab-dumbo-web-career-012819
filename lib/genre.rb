@@ -1,4 +1,4 @@
-class Patient
+class Genre
 
   attr_reader :name
   @@all = []
