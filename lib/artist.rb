@@ -19,7 +19,7 @@ class Artist
   
    def songs
     Song.all.select do |song|
-      song.doctor == self
+      song.artist == self
   end
 
   def patients
