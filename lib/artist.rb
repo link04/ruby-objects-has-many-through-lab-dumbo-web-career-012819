@@ -17,14 +17,6 @@ class Artist
     Appointment.new(song_name, genre, self )
   end
   
-  def songs
-    Appointment.all.select do |appoinment|
-      appoinment.artist == self
-    end
-  end
 
-  def genres 
-    self.appointments.map { |appoinment| appoinment.genre }
-  end
 
 end
