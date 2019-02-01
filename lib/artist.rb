@@ -13,7 +13,7 @@ class Artist
     @@all
   end
 
-  def new_song(song_name, date )
+  def new_song(song_name, genre, )
     Appointment.new(date, patient, self )
   end
   
