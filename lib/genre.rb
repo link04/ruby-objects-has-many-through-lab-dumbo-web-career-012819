@@ -13,15 +13,4 @@ class Genre
   end
   
 
-  
-  def appointments
-    Appointment.all.select do |appoinment|
-      appoinment.patient == self
-    end
-  end
-
-  def doctors
-    self.appointments.map { |appoinment| appoinment.doctor }
-  end
-
 end
