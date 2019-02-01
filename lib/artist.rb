@@ -23,7 +23,7 @@ class Artist
     end
   end
 
-  def songs
+  def genres
     self.appointments.map { |appoinment| appoinment.patient }
   end
 
