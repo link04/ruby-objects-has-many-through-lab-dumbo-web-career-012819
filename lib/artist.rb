@@ -22,9 +22,7 @@ class Artist
       song.artist == self
   end
 
-  def patients
-    self.appointments.map { |appoinment| appoinment.patient }
-  end
+
 
   end
  
