@@ -4,7 +4,7 @@ class Song
   @@all = []
 
   def initialize(date, artist, doctor)
-    @date = date
+    @name = name
     @patient = patient
     @doctor = doctor
     @@all << self
