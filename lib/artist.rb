@@ -24,7 +24,7 @@ class Artist
   end
 
   def genres
-    self.appointments.map { |appoinment| appoinment.patient }
+    self.appointments.map { |appoinment| appoinment.genre }
   end
 
 end
