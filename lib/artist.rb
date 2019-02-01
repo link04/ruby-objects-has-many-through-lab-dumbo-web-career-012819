@@ -18,7 +18,7 @@ class Artist
   end
   
    def songs
-    Appointment.all.select do |appoinment|
+    Song.all.select do |appoinment|
       appoinment.doctor == self
   end
 
