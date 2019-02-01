@@ -24,7 +24,7 @@ class Artist
   end
   
   def genre
-    songs
+    self.songs
   end
  
 end
