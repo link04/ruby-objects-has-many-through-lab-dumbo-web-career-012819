@@ -1,9 +1,9 @@
 class Doctor
 
-  attr_reader :name, :specialty
+  attr_reader :name
   @@all = []
 
-  def initialize(name, specialty)
+  def initialize(name)
     @name = name
     @@all << self
   end
