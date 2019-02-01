@@ -24,8 +24,6 @@ class Song
     self.songs.map {|song| song.genre }
   end
   
-  def artist
-    @artist
-  end
+
 
 end
